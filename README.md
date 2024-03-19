@@ -18,7 +18,11 @@ In today's fast-paced world, it's easy to overlook the significance of small joy
 - **Music Integration:** Enjoy background music that adds ambiance to the celebration.
 
 ### Demo Video
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/ywaIrkh0gfc" title="Monthiversary Celebration Web Project Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Watch the demo of the Monthiversary Celebration Web Project:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ywaIrkh0gfc" frameborder="0" allowfullscreen></iframe>
+
 
 ### Try It Out!
 
