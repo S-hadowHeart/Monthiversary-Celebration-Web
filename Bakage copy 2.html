@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <title>Monthiversary Celebration with baka</title>
+  <link rel="icon" type="image/x-icon" href="https://media1.tenor.com/images/82b39c323ca376e9bb5844a54973fc42/tenor.gif?itemid=16596386">
+  <style>
+    body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.heart {
+  color: #ff69b4; /* Change heart color */
+}
+
+.popup {
+  background-color: rgba(255, 255, 255, 0.95); /* Improve visibility */
+}
+
+button:hover {
+  background-color: #ff69b4; /* Match heart color */
+}
+    h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      color: #ff5f6d;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .content {
+      line-height: 1.8;
+      color: #333;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .signature {
+      font-weight: bold;
+      color: #ff5f6d;
+    }
+
+    .emoji {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+
+    .footer {
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 15px 30px;
+      background-color: #ff5f6d;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: background-color 0.3s ease;
+      outline: none;
+    }
+
+    button:hover {
+      background-color: #ff3d50;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      z-index: 999;
+    }
+
+    .popup img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #ff5f6d;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #ff3d50;
+    }
+
+    /* Animation */
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .heart {
+      animation: bounce 1s infinite;
+    }
+
+    .profile-pic {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    .round {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+
+  </style>
+  
+</head>
+<body>
+  <audio id="music1" src="music/music.mp3" loop autoplay></audio>
+
+  <audio id="music2" src="music/still_with_you.mp3" loop></audio>
+
+      <div class="container">
+    <h1>Hey Baka,</h1>
+    <div class="content">
+      <p>Guess what? It's that time again – another Monthiversary! Can you believe it's been four whole months since we started this friendship journey? Time really does fly, especially when we're buried nose-deep in textbooks!</p>
+      <p><span class="emoji">🌟</span><span class="signature">Quiet Times and Exam Cramming</span><br>
+      I know things have been a bit quiet between us lately, and I totally get it. With exams looming over our heads, it's no wonder our conversations have been shorter than usual. But hey, even in the silence, our friendship still shines bright.</p>
+      <p><span class="emoji">📚</span><span class="signature">Studying Buddies, Even from Afar</span><br>
+      Just because we're both knee-deep in study materials doesn't mean we can't support each other, right? So, here's to virtual study sessions, motivational texts, and celebrating every small victory along the way.</p>
+      <p><span class="emoji">🤫</span><span class="signature">Quiet, But Still Special</span><br>
+      I know I don't say it often (okay, maybe I do), but you're pretty special, baka. Even when we're both stressed out and barely have time to talk, I'm grateful for every moment we've shared together.</p>
+      <p><span class="emoji">🎉</span><span class="signature">Let's Celebrate Anyway!</span><br>
+      Who says we can't celebrate our Monthiversary, even in the midst of exams? So, here's to four months of friendship – four months of laughter, support, and shared experiences. Let's raise a metaphorical toast to us!</p>
+      <p><span class="emoji">📖</span><span class="signature">Studying Today, Laughing Tomorrow</span><br>
+      Sure, our conversations might be a bit shorter these days, but just think about all the laughs we'll share once these exams are behind us. I can't wait to celebrate with you properly, baka, once we're both done with this madness.</p>
+      <p><span class="emoji">🌟</span><span class="signature">Here's to Us, Even in Silence</span><br>
+      So, here's to us – two busy bees buzzing through the chaos of exams. No matter how quiet things get, know that I'm cheering you on from afar. You've got this, baka!</p>
+      <p><span class="emoji">📚</span><span class="signature">Back to the Books (For Now)</span><br>
+      Alright, enough procrastinating for both of us. Back to the books we go! Remember, study hard, stay focused, and don't forget to take breaks every now and then. And if you need a study break buddy, you know where to find me.</p>
+    </div>
+    <div class="footer">
+      <button onclick="showPopup()">Click for a Surprise!</button>
+    </div>
+    <div class="popup" id="popup">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <img src="https://media1.tenor.com/images/82b39c323ca376e9bb5844a54973fc42/tenor.gif?itemid=16596386" alt="Surprise for Bestie baka">
+    </div>
+  </div>
+  <div class="profile-pic" onclick="openNewTab()">
+    <img src="https://s-hadowheart.carrd.co/assets/images/image01.jpg?v=91985b0d" alt="Profile Picture" class="round">
+  </div> 
+  
+</body>
+  <script>
+
+
+    var smallHearts = [];
+    var firstHeart = null;
+    // var backgroundMusic1 = document.getElementById("music1");
+    // backgroundMusic1.play();
+    function openNewTab() {
+  window.open('https://s-hadowheart.carrd.co', '_blank');
+}
+
+
+    function showPopup() {
+      var popup = document.getElementById("popup");
+      popup.style.display = "block";
+      animateHearts();
+    }
+  
+    function closePopup() {
+      animateClosing();
+      setTimeout(function() {
+        var popup = document.getElementById("popup");
+        popup.style.display = "none";
+      }, 10); 
+    }
+  
+    function animateHearts() {
+      var heart = document.createElement("span");
+      heart.innerHTML = "&#10084;";
+      heart.className = "heart";
+      heart.style.position = "fixed";
+      heart.style.color = "#ff5f6d";
+      heart.style.fontSize = "24px";
+      heart.style.zIndex = "1000";
+      heart.style.left = "50%";
+      heart.style.top = "50%";
+      heart.style.transformOrigin = "center";
+      document.body.appendChild(heart);
+  
+      setTimeout(function() {
+        heart.style.transform = "scale(50)"; 
+      }, 10);
+  
+      setTimeout(function() {
+        heart.remove();
+      }, 2500);
+    }
+  
+    function animateClosing() {
+      firstHeart = document.querySelector('.small-heart');
+      if (firstHeart) {
+        firstHeart.animate([
+          { opacity: 1, transform: 'scale(1)' },
+          { opacity: 0, transform: 'scale(5)' }
+        ], {
+          duration: 500,
+          easing: 'ease-out',
+          fill: 'forwards'
+        }).onfinish = function() {
+          firstHeart.remove();
+        };
+      }
+  
+      var centralHeart = document.createElement("span");
+      centralHeart.innerHTML = "&#10084;";
+      centralHeart.className = "heart";
+      centralHeart.style.position = "fixed";
+      centralHeart.style.color = "#ff5f6d";
+      centralHeart.style.fontSize = "24px";
+      centralHeart.style.zIndex = "1000";
+      centralHeart.style.left = "50%";
+      centralHeart.style.top = "50%";
+      centralHeart.style.transformOrigin = "center";
+      document.body.appendChild(centralHeart);
+  
+      var finalScale = Math.max(400, 180);
+      var animation = centralHeart.animate([
+        { transform: 'scale(1)', left: '50%', top: '50%' },
+        { transform: 'scale(' + finalScale + ')', left: '0', top: '0' }
+      ], {
+        duration: 2000,
+        easing: "ease-out" 
+      });
+  
+      animation.onfinish = function() {
+        centralHeart.remove();
+        createRain();
+        setInterval(createRain, 3000); 
+      };
+    }
+  
+    function createRain() {
+
+        var backgroundMusic1 = document.getElementById("music1");
+        backgroundMusic1.pause();
+      var backgroundMusic = document.getElementById("music2");
+        backgroundMusic.play();
+        
+  
+      // Clear old small hearts
+      smallHearts.forEach(function(heart) {
+        heart.remove();
+      });
+      smallHearts = [];
+  
+      for (var i = 0; i < 200; i++) { 
+        var heart = document.createElement("span");
+        heart.innerHTML = "&#10084;";
+        heart.className = "small-heart";
+        heart.style.position = "fixed";
+        heart.style.color = "#ff5f6d";
+        heart.style.fontSize = "16px";
+        heart.style.zIndex = "1000";
+        heart.style.left = Math.random() * window.innerWidth + "px";
+        heart.style.top = Math.random() * -500 + "px"; 
+        document.body.appendChild(heart);
+        smallHearts.push(heart);
+  
+        var animation = heart.animate(
+          [
+            { top: heart.style.top, opacity: 1 },
+            { top: window.innerHeight + "px", opacity: 0 }
+          ],
+          {
+            duration: Math.random() * 3000 + 2000, 
+            easing: "linear",
+            delay: Math.random() * 1000, 
+            fill: "forwards" 
+          }
+        );
+  
+        animation.onfinish = function() {
+          heart.remove();
+          smallHearts.splice(smallHearts.indexOf(heart), 1);
+        };
+      }
+    }
+</script>
+</html>
