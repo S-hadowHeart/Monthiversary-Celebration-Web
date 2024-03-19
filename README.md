@@ -20,9 +20,9 @@ In today's fast-paced world, it's easy to overlook the significance of small joy
 ### Demo Video
 
 Watch the demo of the Monthiversary Celebration Web Project:
+For HD VIDEO FOLLOW LINK :[YOUTUBE](https://youtu.be/ywaIrkh0gfc)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ywaIrkh0gfc" frameborder="0" allowfullscreen></iframe>
-
+https://github.com/S-hadowHeart/Monthiversary-Celebration-Web/assets/103097446/84e785cb-3f74-44ec-bc79-d99884c7f3e7
 
 ### Try It Out!
 
@@ -35,7 +35,7 @@ Follow me on various platforms to stay updated with my projects and connect with
 - [LinkedIn](https://lnkd.in/d5dA7dEn)
 - [Twitter](https://twitter.com/S_hadowHeart)
 - [Dev.to](https://dev.to/s_hadowheart)
-- [Personal Website](https://s-hadowheart.carrd.co/)
+- [Other social media](https://s-hadowheart.carrd.co/)
 
 ### Get Involved
 
