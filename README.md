@@ -2,7 +2,9 @@
 
 Welcome to my Monthiversary Celebration Web Project! 🎉
 
-![Project Preview](https://media1.tenor.com/images/82b39c323ca376e9bb5844a54973fc42/tenor.gif?itemid=16596386)
+<div align="center">
+  <img src="https://media1.tenor.com/images/82b39c323ca376e9bb5844a54973fc42/tenor.gif?itemid=16596386" alt="Project Preview">
+</div>
 
 This project is a tribute to friendship and milestones, encapsulating the spirit of celebrating small moments even amidst busy schedules. It's a web page designed for commemorating the special occasions with friends, featuring animations, heartfelt messages, and surprises.
 
