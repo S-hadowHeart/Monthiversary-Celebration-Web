@@ -29,7 +29,7 @@ https://github.com/S-hadowHeart/Monthiversary-Celebration-Web/assets/103097446/8
 
 ### Try It Out!
 
-You can experience the celebration live by visiting the hosted web page: [Monthiversary Celebration](https://bakage.rf.gd/?i=1)
+You can experience the celebration live by visiting the hosted web page: [Monthiversary Celebration](https://baka-14lr.onrender.com/)
 
 ### Connect with Me
 
